@@ -16,7 +16,7 @@ import {
  * This keeps the constant for parity with your code, but prefer putting your key behind a server (Express proxy)
  * or use environment variables with a backend. Do NOT ship a client with a hard-coded key.
  */
-const API_KEY = "AIzaSyBgcz5W6XWehg-0S9BOxtBwoaoCSwW8abk"; // your provided key (consider rotating & moving server-side)
+const API_KEY = ""; // your provided key (consider rotating & moving server-side)
 const API_URL =
   `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-09-2025:generateContent?key=${API_KEY}`;
 const MAX_RETRIES = 5;
